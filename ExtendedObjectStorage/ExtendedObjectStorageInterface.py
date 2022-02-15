@@ -18,8 +18,8 @@ class ExtendedObjectStorageInterface(Interface):
     def create_directory(self, bucket_name, key):
         pass
 
-    def list_directory(self, bucket_name, key):
+    def list_directory(self, bucket_name, source_dir):
         pass
 
-    def rename_directory(self, bucket_name, source_key, dest_key):
+    def rename_directory(self, bucket_name, source_dir, dest_dir):
         pass
